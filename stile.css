@@ -1,0 +1,22 @@
+/* stili commento css */
+
+h1 { <!--selettore-->
+colore: black;
+background: red;
+<!--dichiarazione, foglio di stile in css, proprietà e valore---->
+}
+
+h1 { color background: black;} <!-- non valida, specificare una sola proprietà-->
+
+p {font: 12px Verdana, Arial;}
+
+div { margin-top: 10px; <!--dichiarazione standard-->
+margin-right: 15px;
+margin-bottom: 5px;
+margin-left: 20;
+}
+
+div {margin: 10px 15px 5px 20px; <!--dichiarazione shorthand properties-->
+}
+
+background-image url(sfondo.jpeg);
